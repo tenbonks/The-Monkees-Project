@@ -1,0 +1,136 @@
+/*---------------------------------------------------------------------------Main Styling*/
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #F0F7F4;
+}
+
+hr {
+    width: 80px;
+    color: #F0F7F4;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+video {
+    padding-bottom: 80px;
+}
+
+/*---------------------------------------------------------------------------/.Main Styling*/
+
+/*---------------------------------------------------------------------------Colours*/
+
+/*---------------------------------------------------------------------------/.Colours*/
+
+/*---------------------------------------------------------------------------Parralax Styling*/
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url(../images/monkees.jpg);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(../images/monkees-bw-bg.jpg);
+    min-height: 50vh;
+
+}
+
+.pimg3 {
+    background-image: url(../images/monkees-bw-bg2.jpg);
+    min-height: 50vh;
+
+}
+
+.pimg4 {
+    background-image: url(../images/monkees-bw-bg3.jpg);
+    min-height: 50vh;
+
+}
+
+/*---------------------------------------------------------------------------/.Parralax Styling*/
+
+/*---------------------------------------------------------------------------Music Section*/
+
+.music-container {
+    background-color: #7BDFF2;
+    border-top: 5px solid #F0F7F4;
+    border-bottom: 5px solid #F0F7F4;
+
+}
+
+.song-card {
+
+    background-color: #F0F7F4;
+    color: #8F8F8F;
+    margin-bottom: 30px;
+    box-shadow: 5px 2px 0.2em;
+    justify-content: center;
+    padding: 0;
+
+
+}
+
+.song-card img {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+
+audio {
+    vertical-align: middle
+}
+
+.video-row {
+    box-shadow: 5px 2px 0.2em;
+}
+
+/*---------------------------------------------------------------------------/.Music Section*/
+
+/*---------------------------------------------------------------------------Gallery*/
+.gallery-container {
+   background-color: #A2E3C4;
+    border-top: 5px solid #F0F7F4;
+    border-bottom: 5px solid #F0F7F4;  
+}
+/*---------------------------------------------------------------------------/.Gallery*/
+
+/*---------------------------------------------------------------------------News*/
+.news-container {
+   background-color: #F9A03F;
+    border-top: 5px solid #F0F7F4;
+    border-bottom: 5px solid #F0F7F4;  
+}
+/*---------------------------------------------------------------------------/.News*/
+
+/*---------------------------------------------------------------------------Live*/
+.live-container {
+   background-color: #726E97;
+    border-top: 5px solid #F0F7F4;
+    border-bottom: 5px solid #F0F7F4;  
+}
+/*---------------------------------------------------------------------------/.Live*/
+
+/*---------------------------------------------------------------------------Footer*/
+/*---------------------------------------------------------------------------/.Footer*/
