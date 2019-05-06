@@ -10,6 +10,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <title>The Monkees</title>
 </head>
@@ -30,7 +31,7 @@
             <a class="nav-link" href="#music">Music</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#members">Members</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#news">News</a>
@@ -77,19 +78,21 @@
   <!--/.Parralax Image-->
 
   <!--Music-->
-  <section class="container-fluid music-container" id="music">
+  <section class="container-fluid music-container transparent-bg-section" id="music">
 
-    <div class="container section-header-container">
+    <div class="container section-header-container text-uppercase">
       <div class="row">
         <h2 class="col-sm-12 col-md-12 col-lg-12 text-center section-header">Music</h2>
       </div>
     </div>
 
-    <hr class="sub-heading-hr">
+    <div class="row">
+      <div class="sub-header-hr col-2 offset-5"></div>
+    </div>
 
     <section class="container video-container text-center">
       <div class="row">
-        <div class="d-none d-sm-block col-md-12 col-lg-12 ">
+        <div class="d-none d-md-block col-md-12 col-lg-12 ">
           <video width="640" height="480" controls>
                     <source src="../assets/video/TheMonkees.mp4" type="video/mp4">
                     Your browser does not support the video tag.
@@ -100,25 +103,25 @@
 
     <section class="container audio-container text-center">
       <div class="row no-gutters">
-        <div class="song-card col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="song-card col-sm-12 col-md-6 col-lg-5 ">
           <img src="../assets/images/cover.jpg"></img>
           <audio src="../assets/audio/The Monkees - Daydream Believer.mp3" controls></audio>
           <p>Daydream Believer - The Monkees</p>
         </div>
 
-        <div class="song-card col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="song-card col-sm-12 col-md-6 offset-lg-2 col-lg-5">
           <img src="../assets/images/album.jpg"></img>
           <audio src="../assets/audio/The Monkees - Last Train to Clarksville.mp3" controls></audio>
           <p>Last Train to Clarksville - The Monkees</p>
         </div>
 
-        <div class="song-card col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="song-card col-sm-12 col-md-6 col-lg-5 ">
           <img src="../assets/images/album2.jpg"></img>
           <audio src="../assets/audio/The Monkees - (Im Not Your) Steppin Stone.mp3" controls></audio>
           <p>(Im Not Your) Steppin Stone - The Monkees</p>
         </div>
 
-        <div class="song-card col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="song-card col-sm-12 col-md-6 offset-lg-2 col-lg-5">
           <img src="../assets/images/cover.jpg"></img>
           <audio src="../assets/audio/The Monkees - Im a Believer.mp3" controls></audio>
           <p>I'm a Believer - The Monkees</p>
@@ -135,18 +138,22 @@
   <!--/.Parralax Image-->
 
   <!--Members-->
-  <section class="container-fluid members-container" id="gallery">
+  <section class="container-fluid members-container transparent-bg-section" id="members">
 
-    <div class="container section-header-container">
+    <div class="container section-header-container text-uppercase">
       <div class="row">
         <h2 class="col-sm-12 col-md-12 col-lg-12 text-center section-header">Members</h2>
       </div>
     </div>
 
+    <div class="row">
+      <div class="sub-header-hr col-2 offset-5"></div>
+    </div>
+
     <div class="container bio-card-container">
       <div class="row no-gutters text-center">
 
-        <div class="col-6">
+        <div class="col-sm-12 offset-md-2 col-md-3 offset-lg-2 col-lg-3">
           <div class="bio-card" style="width: 18rem;">
             <img src="../assets/images/pt.jpg" class="card-img-top" alt="Photo of Pete Tork.">
             <div class="card-body">
@@ -156,17 +163,17 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-sm-12 offset-md-2 col-md-3 offset-lg-2 col-lg-3">
           <div class="bio-card" style="width: 18rem;">
             <img src="../assets/images/dj.jpg" class="card-img-top" alt="Photo of Pete Tork.">
             <div class="card-body">
-              <p class="card-text card-quote">"“The only people who didn’t like The Monkees were the French, and they don’t even like themselves, so what’s the point?”"</p>
+              <p class="card-text card-quote">"The only people who didn’t like The Monkees were the French, and they don’t even like themselves, so what’s the point?"</p>
               <p class="card-text card-name text-right">-Davy Jones</p>
             </div>
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-sm-12 offset-md-2 col-md-3 offset-lg-2 col-lg-3">
           <div class="bio-card" style="width: 18rem;">
             <img src="../assets/images/md.jpg" class="card-img-top" alt="Photo of Pete Tork.">
             <div class="card-body">
@@ -176,7 +183,7 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-sm-12 offset-md-2 col-md-3 offset-lg-2 col-lg-3">
           <div class="bio-card" style="width: 18rem;">
             <img src="../assets/images/mn.jpg" class="card-img-top" alt="Photo of Pete Tork.">
             <div class="card-body">
@@ -197,15 +204,62 @@
   <!--/.Parralax Image-->
 
   <!--News-->
-  <section class="news-container" class="news">
+  <section class="container-fluid news-container transparent-bg-section" id="news">
 
-    <div class="container section-header-container">
+    <div class="container section-header-container text-uppercase">
       <div class="row">
         <h2 class="col-sm-12 col-md-12 col-lg-12 text-center section-header">News</h2>
       </div>
     </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima sequi dolores eaque animi delectus. Fugit, magnam. Quis, voluptatum saepe a iusto, recusandae perferendis dolor quisquam.</p>
+    <div class="row">
+      <div class="sub-header-hr col-2 offset-5"></div>
+    </div>
+
+    <div class="container news-outer-container">
+
+      <div class="container news-story-container ">
+        <div class="row">
+          <div class="d-none d-sm-none d-lg-block col-md-3 news-story-image">
+            <img src="../assets/images/pt-older.jpg" alt="Photo of Pete Tork">
+          </div>
+
+          <div class="col-sm-12 col-md-9 news-story-text">
+            <div class="news-story-header">
+              <h3>R.I.P Pete Tork</h3>
+            </div>
+            <div class="news-story-date">
+              <h3>21-02-19</h3>
+            </div>
+            <div class="news-story-story"></div>
+            <p>Farewell to Peter Tork, he was the first member of the Monkees to bid the band adieu. Now at the age of 77, Peter Tork has become the second member of the band to whom we must bid farewell. His death was confirmed by his son, Ivan Ianolli,
+              in which it was caused by a rare form of cancer. - Came Via a post on Tork's official Facebook page:</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container news-story-container">
+        <div class="row">
+          <div class="d-none d-sm-none d-lg-block col-md-3 news-story-image">
+            <img src="../assets/images/cover3.jpg" alt="Photo of the band">
+          </div>
+
+          <div class="col-sm-12 col-md-9 news-story-text">
+            <div class="news-story-header">
+              <h3>The Monkees Are On TOUR!</h3>
+            </div>
+            <div class="news-story-date">
+              <h3>01-01-19</h3>
+            </div>
+            <div class="news-story-story"></div>
+            <p>Look at our "Live" section of our site to find out more about locations and dates, you can also contact us to perform at private functions!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
 
   </section>
   <!--./News-->
@@ -215,7 +269,7 @@
   <!--/.Parralax Image-->
 
   <!--Live-->
-  <section class="live-container" id="live">
+  <section class="container-fluid live-container transparent-bg-section " id="live">
 
     <div class="container section-header-container">
       <div class="row">
@@ -223,7 +277,98 @@
       </div>
     </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet ratione qui sint accusamus ullam velit veritatis minus. Aliquid vero praesentium omnis facilis quas quos quisquam tempore, veniam odit. Ex, cum!</p>
+    <div class="row">
+      <div class="sub-header-hr col-2 offset-5"></div>
+    </div>
+
+    <div class="container table-container">
+      <table class="table table-hover text-center">
+        <thead>
+          <tr>
+            <th scope="col">Location</th>
+            <th scope="col">Date</th>
+            <th scope="col">Tickets</th>
+          </tr>
+        </thead>
+        <tbody class="text-uppercase">
+          <tr>
+            <td>London</td>
+            <td>27-04-19</td>
+            <td><button type="button" class="btn btn-light">Tickets Here</button></td>
+          </tr>
+          <tr>
+            <td>Manchester</td>
+            <td>15-05-19</td>
+            <td><button type="button" class="btn btn-danger">Sold Out!</button></td>
+          </tr>
+          <tr>
+            <td>Birmingham</td>
+            <td>22-05-19</td>
+            <td><button type="button" class="btn btn-light">Tickets Here</button></td>
+          </tr>
+          <tr>
+            <td>Leeds</td>
+            <td>02-06-19</td>
+            <td><button type="button" class="btn btn-light">Tickets Here</button></td>
+          </tr>
+          <tr>
+            <td>Oxford</td>
+            <td>25-06-19</td>
+            <td><button type="button" class="btn btn-light">Tickets Here</button></td>
+          </tr>
+          <tr>
+            <td>Portsmouth</td>
+            <td>05-07-19</td>
+            <td><button type="button" class="btn btn-light">Tickets Here</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container contact-container contact-card text-center ">
+
+      <div class="contact-container-text">
+        <div class="row">
+          <div class="col-12">
+            <p><span><strong>We also perform at Wedding's and Parties ranging from Christmas, Business and Birthday's!</strong></span><br> Just click the button below, fill out the form and we will get back to you within 3 working days.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-container-button text-center">
+        <div class="row no-gutters">
+          <div class="offset-5 col-2 ">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
+            Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </section>
   <!--./Live-->
 
@@ -240,20 +385,22 @@
   <!--Footer-->
   <section class="footer">
     <div class="container-fluid">
-      <ul class="list-inline social-links text-center">
-        <li class="list-inline-item">
+
+      <ul class="list-inline social-links text-center ">
+        <li class="list-inline-item social-link-border">
           <a target="_blank" href="https://www.facebook.com/TheMonkees/">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
         </li>
-        <li class="list-inline-item">
+
+        <li class="list-inline-item social-link-border">
           <a target="_blank" href="https://twitter.com/themonkees?lang=en">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
         </li>
-        <li class="list-inline-item">
+        <li class="list-inline-item social-link-border">
           <a target="_blank" href="https://www.youtube.com/user/themonkees">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>

@@ -17,6 +17,20 @@ hr {
 }
 
 
+.sub-header-hr {
+    width: 65px;
+    height: 3px;
+    background-color: #F0F7F4;
+    margin-bottom: 20px;
+}
+
+.social-link-border {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    vertical-align: middle;
+}
 
 
 
@@ -63,19 +77,30 @@ hr {
 /*---------------------------------------------------------------------------/.Parralax Styling*/
 
 /*---------------------------------------------------------------------------Text*/
+
+.section-header-container {
+    font-family: "Pacifico", sans-serif;
+    font-size: 20px;
+}
+
 /*---------------------------------------------------------------------------/.Text*/
 
 /*---------------------------------------------------------------------------Special Paddings/Margins*/
+
 h2 {
     padding-top: 30px;
 }
+
+
 /*---------------------------------------------------------------------------/.Special Paddings/Margins*/
 
-/*---------------------------------------------------------------------------Colours*/
+/*---------------------------------------------------------------------------Special Colours/Textures*/
 
-/*---------------------------------------------------------------------------/.Colours*/
+.transparent-bg-section {
+    background-image: url("../images/diagonal-striped-brick.png");
+}
 
-
+/*---------------------------------------------------------------------------/.Special Colours/Textures*/
 
 /*---------------------------------------------------------------------------Music Section*/
 
@@ -91,11 +116,12 @@ h2 {
     background-color: #F0F7F4;
     color: #8F8F8F;
     margin-bottom: 30px;
-    box-shadow: 0px 2px 0.2em;
+    box-shadow: 5px 2px 0.2em;
     justify-content: center;
     padding: 0;
     width: 300px;
     height: auto;
+    border-radius: 25px;
 }
 
 
@@ -104,6 +130,8 @@ h2 {
     height: 100px;
     width: 100px;
     padding: 10px;
+    
+
 }
 
 
@@ -130,19 +158,26 @@ video {
 }
 
 .bio-card {
-    
+
+    width: auto;
     background-color: #F0F7F4;
     color: #8F8F8F;
     box-shadow: 5px 2px 0.2em;
-    transform: translateX(50%);
+    /*transform: translateX(50%);*/
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.bio-card .card-body {
+    height: 200px;
 }
 
 
 .bio-card img {
-    width: 18em; 
+    width: 18em;
     height: 15em;
+    border-radius: 25px 25px 0 0;
 }
 
 
@@ -156,6 +191,36 @@ video {
     border-bottom: 5px solid #F0F7F4;
 }
 
+.news-story-container {
+    background-color: #F0F7F4;
+    color: #8F8F8F;
+    width: 100%;
+    position: relative;
+    margin: 30px 0 30px 0;
+    box-shadow: 5px 2px 0.2em;
+    border-radius: 25px;
+    padding: 0 0 0 0;
+    display: inline-block;
+}
+
+.news-story-container h3 {
+    padding: 15px;
+}
+
+.news-story-container p {
+    padding: 15px;
+}
+
+.news-story-image img {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   border-radius: 25px 0px 0px 25px;
+   padding-left: 0;
+}
+
+
+
 /*---------------------------------------------------------------------------/.News*/
 
 /*---------------------------------------------------------------------------Live*/
@@ -164,6 +229,27 @@ video {
     background-color: #726E97;
     border-top: 5px solid #F0F7F4;
     border-bottom: 5px solid #F0F7F4;
+}
+
+.table-container tr {
+    color: #F0F7F4;
+    transform: scaleY(50%);
+}
+
+.contact-card {
+    background-color: #F0F7F4;
+    color: #8F8F8F;
+    margin-bottom: 30px;
+    box-shadow: 5px 2px 0.2em;
+    border-radius: 25px;
+}
+
+.contact-card p {
+    margin-top: 15px;
+}
+
+.contact-card button {
+    margin-bottom: 15px;
 }
 
 /*---------------------------------------------------------------------------/.Live*/
