@@ -9,6 +9,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -19,7 +20,8 @@
 
   <!--header-->
   <section class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light scroll">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light scroll" id="header">
       <a class="navbar-brand" href="#">The Monkees</a>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,27 +42,27 @@
             <a class="nav-link " href="#live">Live</a>
           </li>
         </ul>
-      </div>
 
-      <ul class="list-inline social-links text-right">
-        <li class="list-inline-item">
+        <li class="nav-item ">
           <a target="_blank" href="https://www.facebook.com/TheMonkees/">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
         </li>
-        <li class="list-inline-item">
+        <li class="nav-item ">
           <a target="_blank" href="https://twitter.com/themonkees?lang=en">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
         </li>
-        <li class="list-inline-item">
+        <li class="nav-item ">
           <a target="_blank" href="https://www.youtube.com/user/themonkees">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                             </a>
-      </ul>
+          </ul>
+      </div>
+
     </nav>
   </section>
   <!--/.header-->
@@ -69,11 +71,8 @@
 
   <!--Parallax Image-->
   <div class="pimg1">
-    <div class="ptext">
-      <span class="border">
-      
-      </span>
-    </div>
+
+  </div>
   </div>
   <!--/.Parralax Image-->
 
@@ -347,20 +346,35 @@
 
 
       <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog" role="contact">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="contactModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="contactModalLabel">Contact Us!</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
             </div>
             <div class="modal-body">
-              ...
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="InputEmail"></label>
+                  <input type="email" class="form-control" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="Inputname"></label>
+                  <input type="name" class="form-control" id="Inputname" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="Inputmessage"></label>
+                  <textarea id="subject" name="subject" placeholder="Your message." style="height100px"></textarea>
+                </div>
+
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" id="Email" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Send</button>
+              </form>
             </div>
           </div>
         </div>
@@ -384,29 +398,33 @@
 
   <!--Footer-->
   <section class="footer">
-    <div class="container-fluid">
-
-      <ul class="list-inline social-links text-center ">
-        <li class="list-inline-item social-link-border">
-          <a target="_blank" href="https://www.facebook.com/TheMonkees/">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-        </li>
-
-        <li class="list-inline-item social-link-border">
-          <a target="_blank" href="https://twitter.com/themonkees?lang=en">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-        </li>
-        <li class="list-inline-item social-link-border">
-          <a target="_blank" href="https://www.youtube.com/user/themonkees">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">Youtube</span>
-                            <a/>
-     </ul>
-    </div>
+    
+     <!--       < <ul class="list-inline social-links text-center ">-->
+     <!--         <li class="list-inline-item social-link-border">-->
+     <!--           <a target="_blank" href="https://www.facebook.com/TheMonkees/">-->
+     <!--                       <i class="fab fa-facebook-f" aria-hidden="true"></i>-->
+     <!--                       <span class="sr-only">Facebook</span>-->
+     <!--                   </a>-->
+     <!--         </li>-->
+     <!--         /div>-->
+     <!--         <li class="">-->
+     <!--           <li class="list-inline-item social-link-border">-->
+     <!--             <a target="_blank" href="https://twitter.com/themonkees?lang=en">-->
+     <!--                       <i class="fab fa-twitter" aria-hidden="true"></i>-->
+     <!--                       <span class="sr-only">Twitter</span>-->
+     <!--                   </a>-->
+     <!--           </li>-->
+     <!--     </div>-->
+     <!--     <div class="">-->
+     <!--       <li class="list-inline-item social-link-border">-->
+     <!--         <a target="_blank" href="https://www.youtube.com/user/themonkees">-->
+     <!--                       <i class="fab fa-youtube" aria-hidden="true"></i>-->
+     <!--                       <span class="sr-only">Youtube</span>-->
+     <!--                       <a/>-->
+     <!--                       </li>-->
+     <!--                       </div>-->
+     <!--</ul>-->
+     
   </section>
   <!--/.Footer-->
   
