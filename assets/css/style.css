@@ -32,6 +32,13 @@ hr {
     vertical-align: middle;
 }
 
+ul {
+    display: inline;
+}
+
+a {
+    cursor: pointer
+}
 
 
 /*---------------------------------------------------------------------------/.Main Styling*/
@@ -58,19 +65,19 @@ hr {
 
 .pimg2 {
     background-image: url(../images/monkees-bw-bg.jpg);
-    min-height: 50vh;
+    min-height: 30vh;
 
 }
 
 .pimg3 {
     background-image: url(../images/monkees-bw-bg2.jpg);
-    min-height: 50vh;
+    min-height: 30vh;
 
 }
 
 .pimg4 {
     background-image: url(../images/monkees-bw-bg3.jpg);
-    min-height: 50vh;
+    min-height: 30vh;
 
 }
 
@@ -207,8 +214,9 @@ video {
     display: inline-block;
 }
 
-.news-story-container h3 {
+.news-story-container h3  {
     padding: 15px;
+    
 }
 
 .news-story-container p {
@@ -259,5 +267,15 @@ video {
 /*---------------------------------------------------------------------------/.Live*/
 
 /*---------------------------------------------------------------------------Footer*/
+.footer {
+    padding: 30px 0;
+    display: inline
+}
+
+.footer ul {
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
 
 /*---------------------------------------------------------------------------/.Footer*/
