@@ -26,8 +26,9 @@ hr {
 }
 
 .social-link-border {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
     border-radius: 50%;
     background-color: #000;
     vertical-align: middle;
@@ -44,6 +45,8 @@ a {
 button {
     font-family: sans-serif;
 }
+
+
 /*---------------------------------------------------------------------------/.Main Styling*/
 
 /*---------------------------------------------------------------------------Parralax Styling*/
@@ -165,7 +168,7 @@ audio {
 video {
     /*padding-bottom: 80px;*/
     position: relative;
-    transform: translateY(-10%);
+    
     
 }
 
@@ -261,11 +264,12 @@ video {
     border-bottom: 5px solid #F0F7F4;
 }
 
-.table-container tr {
+.show-table-container{
     color: #F0F7F4;
-    transform: scaleY(50%);
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .contact-card {
@@ -288,24 +292,19 @@ video {
     font-family: sans-serif;
 }
 
-.modal textarea {
-    width: 80%;
-    height: 100px;
-}
+
+
 /*---------------------------------------------------------------------------/.Live*/
 
 /*---------------------------------------------------------------------------Footer*/
 
 .footer {
-    padding: 30px 0;
-    display: inline
+    padding: 15px 0 15px 0;
 }
 
-.footer ul {
-    display: inline;
-    margin: 0 10px 0 10px;
+.footer .social-link-border {
+    margin: 0 15px 0 15px;
 }
-
 
 /*---------------------------------------------------------------------------/.Footer*/
 
