@@ -26,12 +26,16 @@ hr {
 }
 
 .social-link-border {
-    width: 100px;
-    height: 100px;
+    width: 38px;
+    height: 38px;
     padding: 10px;
     border-radius: 50%;
     background-color: #000;
     vertical-align: middle;
+}
+
+.social-link-border i {
+    padding: 5px;
 }
 
 ul {
@@ -125,6 +129,14 @@ nav {
     font-family: sans-serif;
 }
 
+.nav-social-group {
+    float: right;
+}
+
+.social-nav-group li {
+    margin: 0 15px 0 15px;
+}
+
 /*---------------------------------------------------------------------------/.header*/
 
 /*---------------------------------------------------------------------------Music Section*/
@@ -166,7 +178,7 @@ audio {
 
 
 video {
-    /*padding-bottom: 80px;*/
+    /*padding-bottom: 40px;*/
     position: relative;
     
     
