@@ -44,6 +44,7 @@ The order the section are layed out are as follows...
 A sign up to news letter, originally I thought about implementing this but didn't see it as necessary.
 I wanted to use JS to make the song cards be the album artwork with a play button in the middle, this style is widely used in other apps, such as Spotify and I-tunes, to make it look cleaner and a bit more modern.
 Expandable sections so there will be an arrow at the bottom of each section which will drop down the section to reveal more content.
+
 ---
 ## Technologies Used
 
