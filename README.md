@@ -60,6 +60,19 @@ I have been testing this site during development and heavily after to make sure 
  - USER 3 - Click the nav or scroll to the "Music" section, click on either of the many media elements available for you.
  - USER 4 - Click the nav or scroll to the "live" section, click on the tickets button inline with the "St Kilda" row
  - USER 5 - Click on the social link you want in the header or footer if viewing on a tablet or larger, if on a small device social links can be found in the footer.
+ 
+---
+
+After testing the user stories, I conducted a general test on elements to make sure they are functioning as they should.
+
+- The Navs in the header all work and take you to where they should, "The Monkees" logo in the header takes you back to the top.
+- The modal works as it should, all fields MUST be filled to submit.
+- The music and video elements are working and all controls responsing.
+- All social links take you to the correct social space.
+- all emlements are responsive and fit well on xs-xl devices.
+- All buttons work and take you to the correct venue in the live section.
+- Contact us buttons in live section and footer all functioning.
+- Certain elements are hidden on small devices as they should be.
 
 ---
 ## Deployment
@@ -92,5 +105,5 @@ I received inspiration for this project from...
 - The Decemberists website - http://www.decemberists.com/ - gave me the thought of using a single-page design.
 - Maranatha Llesanmi, my mentor for useful guidance and reviews during the development of my site, thank you.
 - Slack for various challeneges I encountered, such as removing the "Download" option from the media controls, so thanks to everyone in the user-centric-frontend channel for support
-- The footer was heavily inspired from the one learned during the Resume-Site project,
+- The footer was heavily inspired from the one learned during the Resume-Site project through Code Institute.
 
