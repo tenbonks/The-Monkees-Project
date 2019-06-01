@@ -6,6 +6,8 @@ This is a website, for The Monkees, they've been rockin' since the 60's and have
 This site facilitates their growth with a catalougue of their greatest hits with space to expand for any new content, social links, images from their past, qoutes from the members, 
 gig dates and a contact form so a user can enquire about booking them for a private function.
 
+__This is the place to be if you love The Monkees!__
+
 Here's a link to the deployed site - https://tenbonks.github.io/The-Monkees-Project/#
 
 ---
